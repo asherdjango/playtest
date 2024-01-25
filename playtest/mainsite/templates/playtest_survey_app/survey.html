@@ -1,0 +1,8 @@
+<form method="post" action="{% url 'survey:survey' %}">
+    {% csrf_token %}
+    {% for question in questions %}
+        <p>{{ question.text }}</p>
+        {{ form.as_p }}
+    {% endfor %}
+    <button type="submit">Submit</button>
+</form>

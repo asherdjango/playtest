@@ -1,0 +1,30 @@
+/* Define custom styles for the cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  height: 150px;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 24px;
+}
+
+/* Define custom background colors for the cards */
+.total-orders {
+  background-color: #007BFF;
+  color: white;
+}
+
+.orders-delivered {
+  background-color: #28A745;
+  color: white;
+}
+
+.orders-pending {
+  background-color: #FFC107;
+  color: white;
+}
